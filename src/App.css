@@ -1,68 +1,111 @@
-blockquote::first-letter {
-  text-transform: uppercase;
- 
+body {
+  background-color: #F0F8FF;
+  margin: 0
 }
-.navbar{
-  width: 100%;
-}
-.button_nav{
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-body{
-  background-color: #f3f3f3;
-}
-.parrent{
-  display: flex;
-  margin-top: 20%;
-  margin-left: 42%;
-}
-/* login&&signin */
-.loginfield {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-.login-card {
-  margin: 20px;
-  padding: 50px;
 
-}
-.signin-card {
-  margin: 20px;
-  padding: 50px;
-
-}
-.newpassword{
-  text-align: center;
+.navbar {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #B9D9EB;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 25px;
   align-items: center
 }
-/* .card .alreadyuser:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  color: dodgerblue
-} */
-.loginform {
-  gap: 10px;
+
+.card-container {
+  padding: 20px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between
+}
+
+.card {
+  border-radius: 10px;
+  padding: 10px;
+  width: 380px;
+  height: 420px;
+  background-color: #B9D9EB
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.carName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+
+i {
+  color: #0077c0;
+  font-weight: bold;
+  font-size: 16px
+}
+
+.model {
+  padding: 3px;
+  border: 2px dotted #0077c0;
+  border-radius: 10px;
+  background-color: #F0F8FF;
+}
+
+.car-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center
+}
+
+.car-price {
+  border-top: 1.5px solid #E8E8E8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px
+}
+
+.rent-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px
+}
+
+.rent-button span {
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+
+.pagination span {
+  padding: 5px;
+  background-color: #B9D9EB;
+  border-radius: 10px
+}
+
+.pagination span:hover {
+  cursor: pointer
 }
